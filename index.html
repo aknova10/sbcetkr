@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE SB CETkr</title>
+    <!-- <script type="text/javascript" src="js/stickyScroll.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onscroll="navibarGenerator()">
+    <div class="parallax"></div>
+    
+    <nav class="navbar">
+        <ul>
+            <li>
+                <h3><a href="#">Home</a></h3>
+            </li>
+            <li>
+                <h3><a href="events.html">Events</a></h3>
+            </li>
+            <li>
+                <h3><a href="gallery.html">Gallery</a></h3>
+            </li>
+            <li>
+                <h3><a href="#about">About Us</a></h3>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="logo">
+        <img src="img/sbLogo2.png" width="100px" alt="LOGO">
+    </div>
+
+    <div id="navigate" class="contrastor">
+
+    </div>
+    <!-- javascript -->
+    <script>        
+        var header = document.getElementById("navigate");
+        var sticky = header.offsetTop;
+        
+        function navibarGenerator() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+
+    <div class="general">
+        <h1>EXECOM MEMBERS</h1>
+        <br>
+        <div class="imageCard">
+            <div class="user-image">
+                <img class="image" src="img/execomMembers/chair.jpg" alt="" width="130px">
+                
+            </div>
+            <div class="user-image">
+                <img class="image" src="img/execomMembers/treasurer.jpg" alt="" width="130px">
+            </div>
+            <div class="user-image">
+                <img class="image" src="img/execomMembers/eventCordinator.jpg" alt="" width="130px">
+            </div>
+            <div class="user-image">
+                <img class="image" src="img/userPH.png" alt="" width="130px">
+            </div>
+            <div class="user-image">
+                <img class="image" src="img/userPH.png" alt="" width="130px">
+            </div>
+            <div class="user-image">
+                <img class="image" src="img/userPH.png" alt="" width="130px">
+            </div>
+        </div>
+    </div>
+    
+    <div class="general">
+        <h1>EVENTS</h1>
+        <br>
+        <div class="container">
+            <div class="card">
+                <img class="event-image" src="img/inizio.jpg" alt="">
+                <h2>INIZIO 5.0</h2>
+                <p class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem cum nobis quia harum! Tempora earum sunt voluptatum quos ipsum perferendis nemo esse at illum neque quaerat vitae fugiat suscipit, numquam expedita magni repudiandae officiis nam deserunt, ducimus facere exercitationem veniam cum dolor! Necessitatibus ut enim maiores soluta deleniti odio nulla suscipit molestiae reiciendis ex eveniet repellat saepe excepturi, ab ipsum maxime, nemo veniam quidem. Assumenda a, ea esse velit repellendus nesciunt sit explicabo asperiores laudantium ab dolore cupiditate possimus natus maiores eligendi hic fuga nostrum quos distinctio aliquid voluptas recusandae minus odit. Pariatur molestiae voluptates inventore dolorum cupiditate libero magni!
+                </p>
+            </div>
+            <div class="card">
+                <img class="event-image" src="img/reviens.jpg" alt="">
+                <h2>REVIENS 2.0</h2>
+                <p class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem cum nobis quia harum! Tempora earum sunt voluptatum quos ipsum perferendis nemo esse at illum neque quaerat vitae fugiat suscipit, numquam expedita magni repudiandae officiis nam deserunt, ducimus facere exercitationem veniam cum dolor! Necessitatibus ut enim maiores soluta deleniti odio nulla suscipit molestiae reiciendis ex eveniet repellat saepe excepturi, ab ipsum maxime, nemo veniam quidem. Assumenda a, ea esse velit repellendus nesciunt sit explicabo asperiores laudantium ab dolore cupiditate possimus natus maiores eligendi hic fuga nostrum quos distinctio aliquid voluptas recusandae minus odit. Pariatur molestiae voluptates inventore dolorum cupiditate libero magni!
+                </p>
+            </div>
+            <div class="card">
+                <img class="event-image" src="img/reviens.jpg" alt="">
+                <h2>REVIENS 2.0</h2>
+                <p class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem cum nobis quia harum! Tempora earum sunt voluptatum quos ipsum perferendis nemo esse at illum neque quaerat vitae fugiat suscipit, numquam expedita magni repudiandae officiis nam deserunt, ducimus facere exercitationem veniam cum dolor! Necessitatibus ut enim maiores soluta deleniti odio nulla suscipit molestiae reiciendis ex eveniet repellat saepe excepturi, ab ipsum maxime, nemo veniam quidem. Assumenda a, ea esse velit repellendus nesciunt sit explicabo asperiores laudantium ab dolore cupiditate possimus natus maiores eligendi hic fuga nostrum quos distinctio aliquid voluptas recusandae minus odit. Pariatur molestiae voluptates inventore dolorum cupiditate libero magni!
+                </p>
+            </div>
+
+        </div>
+
+        <a href="events.html">
+            <button class="btn end">Learn More</button>
+        </a>
+    </div>
+
+    <br>
+    <br>
+    
+    <div class="general" id="about">
+        <h1>ABOUT US</h1>
+        <div class="para">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et culpa, sequi debitis quia excepturi quisquam quod accusamus, unde tempore assumenda suscipit tenetur eius explicabo sapiente, officia dolore fuga saepe harum laborum! Eum impedit labore sequi officia delectus eaque eligendi, distinctio ea suscipit fuga sit quasi sunt sint commodi odit cum assumenda blanditiis quia, ipsa error tenetur necessitatibus? Earum explicabo iste nobis eos tempore vitae error dolore nesciunt quasi, unde magnam quo veniam accusamus voluptas. Autem, similique! Debitis delectus obcaecati in magnam voluptatibus iure animi ex aliquid suscipit omnis doloremque optio excepturi, beatae corrupti dolores temporibus. Dolor veritatis magnam ab repellat?
+            </p>
+        </div>
+    </div>
+
+    <div class="general">
+        <footer>
+            <div>
+                <h1>CONTACT US</h1>
+            </div>
+            <div>
+                <h5>Anannya PM : 64665165165</h5>
+            </div>
+            <div>
+
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
