@@ -92,6 +92,9 @@ footer {
   // }
 }
 
+.mob-navbar {
+  display: none;
+}
 
 .sticky {
   position: fixed;
@@ -379,7 +382,7 @@ svg {
   .mainText {
     color: white;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 7%;
     text-align: center;
     h1 {
@@ -404,22 +407,27 @@ svg {
   }
 
   nav {
-    display: none;
+    width: 100%;
       ul {
           // li:nth-of-type(4) {
           //     padding-right: 200px;
           // }
+          width: 100%;
           margin:7px 0 5px;
-          float: right;
+          // float: left;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
           li {
-              float: left;
+              
               list-style: none;
-              padding-right: 40px;
-              padding-left: 20px;
+              padding-right: 0px;
+              padding-left: 0px;
               
               a {
                   color: white;
                   text-decoration: none;
+                  font-weight: lighter;
               }
           }
       }
@@ -466,6 +474,21 @@ svg {
     // }
   }
   
+  .mob-navbar {
+
+    display: inline;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: black;
+    z-index: 999;
+    transition: 0.3s ease-in-out;
+
+    input {
+      margin: 3% 5%;
+      outline: none;
+    }
+  }
   
   .sticky {
     position: fixed;
@@ -522,7 +545,7 @@ svg {
   .btn {
     
     border: black 2px solid;
-    border-radius: 10px;
+    border-radius: 7px;
     background-color: rgb(52, 53, 56);
     color: white;
     font-size: 25px;

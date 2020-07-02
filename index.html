@@ -8,6 +8,30 @@
     <!-- <script type="text/javascript" src="js/stickyScroll.js"></script> -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <script>
+        function navOpen() {
+            var navbar = document.getElementById("hamburger");
+            if (navbar.style.bottom === "50%") {
+
+                navbar.style.position = "fixed"; 
+                navbar.style.top = "0%"; 
+                navbar.style.bottom = "93%"; 
+                navbar.style.left = "0%"; 
+                navbar.style.right = "0%"; 
+                document.getElementById("nav-item").style.display= "none";
+            }
+            else {
+                navbar.style.position = "fixed"; 
+                navbar.style.top = "0%"; 
+                navbar.style.bottom = "50%"; 
+                navbar.style.left = "0%"; 
+                navbar.style.right = "0%";
+                document.getElementById("nav-item").style.display= "flex";
+            }
+}
+
+    </script>
+
 </head>
 
 <body>
@@ -41,6 +65,24 @@
         <div class="filler">
             <br>
         </div>
+    </nav>
+
+    <nav class="mob-navbar" id="hamburger" style="position: fixed; top: 0%; bottom: 93%; left: 0%; right: 0%;">
+        <input type="image" src="img/menubar.svg" width="25px" onclick="navOpen()">
+        <ul id="nav-item" style="display: none; transition: 0.7s ease-in-out;" >
+            <li>
+                <h3><a href="index.html"> HOME </a></h3>
+            </li>
+            <li>
+                <h3><a href="gallery.html"> GALLERY </a></h3>
+            </li>
+            <li>
+                <h3><a href="events.html"> EVENTS </a></h3>
+            </li>
+            <li>
+                <h3><a href="index.html#about"> ABOUT US </a></h3>
+            </li>
+        </ul>
     </nav>
 
     </div>
