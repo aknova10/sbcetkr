@@ -148,6 +148,10 @@ footer {
   font-size: 21px;
 }
 
+.image-heading {
+  font-weight: lighter;
+}
+
 .btn {
   border: black 2px solid;
   border-radius: 10px;
@@ -256,7 +260,7 @@ footer {
 }
 
 .para {
-  width: 35%;
+  width: 40%;
   padding-left: 70px;
 }
 
