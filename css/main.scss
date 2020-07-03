@@ -76,6 +76,7 @@ footer {
     grid-column-start: 2;
     grid-row-start: 2;
     h1 {
+      margin: 0;
       font-weight: lighter;
       a {
         color: white;
@@ -341,6 +342,9 @@ footer {
 
 .contact {
   padding: 0.2% 4% 3%;
+  h3{
+    margin: 0;
+  }
   span {
     font-weight: lighter;
   }
@@ -610,7 +614,7 @@ svg {
   }
   .image {
       border-radius: 50%;
-      width: 200px;
+      width: 170px;
   }
   .user-image {
     position: relative;
@@ -734,10 +738,18 @@ svg {
     background-color: #fff;
     display: flex;
     margin: 5%;
-    padding: 7%;
+    padding-top: 7%;
     flex-direction: column;
     width: 70%;
     border-radius: 20px;
+    .back {
+      h1{
+        font-size: 20px;
+      }
+      h2 {
+        font-size: 18px;
+      }
+    }
   }
 
   .sub-footer {
@@ -1021,7 +1033,7 @@ svg {
   }
   .image {
       border-radius: 50%;
-      width: 200px;
+      width: 150px;
   }
   .user-image {
     position: relative;
@@ -1145,10 +1157,18 @@ svg {
     background-color: #fff;
     display: flex;
     margin: 5%;
-    padding: 7%;
+    padding-top: 7%;
     flex-direction: column;
     width: 70%;
     border-radius: 20px;
+    .back {
+      h1{
+        font-size: 20px;
+      }
+      h2{
+        font-size: 18px;
+      }
+    }
   }
 
   .sub-footer {
